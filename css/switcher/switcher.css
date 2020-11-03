@@ -1,0 +1,181 @@
+/*
+* ----------------------------------------------------------------------------------------
+Author       :Nasir
+Template Name: 
+Version      : 1.0                                          
+* ----------------------------------------------------------------------------------------
+*/
+/* Styles Switcher */
+
+#style-switcher {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 0 0 3px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  left: 0;
+  position: fixed;
+  top: 220px;
+  width: 220px;
+  z-index: 9999;
+}
+
+#style-switcher div {
+    padding: 5px 10px;
+}
+
+#style-switcher h2 {
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 8px;
+	margin-right: 0;
+	margin-top: 0;
+	padding: 12px 0 12px;
+	text-align: center;
+	text-transform: uppercase;
+	background:#f25c27;
+	font-weight:600;
+}
+#style-switcher h3 {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 15px;
+}
+
+#style-switcher h2 a {
+    background: #82B440 none repeat scroll 0 0;
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: -40px;
+    top: 0;
+    width: 40px;
+}
+
+#style-switcher h2 a i {
+    color: #fff;
+    font-size: 24px;
+    left: 10px;
+    position: absolute;
+    top: 9px;
+	animation:animate 2s linear infinite;
+}
+@keyframes animate{
+	0%{
+		transform:rotate(0deg)
+	}
+	100%{
+		transform:rotate(360deg)
+	}
+}
+.colors {
+    padding-left: 7px;
+}
+
+.colors {
+    list-style: none;
+    margin: 0px 0px 10px 0px;
+    overflow: hidden;
+}
+
+.colors li {
+    float: left;
+}
+.colors li a {
+	cursor: pointer;
+	display: block;
+	height: 40px;
+	margin: 4px;
+	width: 88px;
+}
+
+.layout-style select {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin: 0 0 0 -5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#reset {
+    margin: 0 0 15px 2px;
+}
+
+#reset a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.style-1 {
+    background: #f25c27;
+}
+
+.style-2 {
+    background: #f82e56;
+}
+
+.style-3 {
+    background: #0f6cb2;
+}
+
+.style-4 {
+    background: #ea8a65;
+}
+
+.style-5 {
+    background: #c0392b;
+}
+
+
+
+
+.icon-2x {
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.item-version{}
+.item-version ul{
+    padding: 0;
+    margin: 0;
+list-style: none;
+}
+.item-version ul li{
+    display: block;
+    text-align: center;
+    position: relative;
+    
+}
+.item-version p {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: #000;
+	width: 100%;
+    background: #207FDC;
+    color: #fff;
+}
+.item-version ul li a {
+	display: block;
+	margin-bottom: 8px;
+	padding: 6px;
+	/* text-transform: uppercase; */
+	color: #fff;
+}
+.demo h2{
+	background:#1abc9c;
+	color:#fff;
+}
+.demo ul li{
+	float:left;
+	height:50px;
+	width:45%;
+	background:#000;
+	margin:3px;
+}
+
